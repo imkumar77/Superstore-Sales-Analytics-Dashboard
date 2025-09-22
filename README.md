@@ -85,8 +85,43 @@ SQL queries revealed that the West and East regions are the most profitable, wit
 
 ---
 
+## Why I Shifted to Power BI
 
+While SQL is powerful for data modeling and analysis, it offers limited visual representation and lacks built-in forecasting capabilities. I shifted to Power BI to overcome these limitations—its interactive dashboards allow me to visualize current business scenarios and uncover future trends. Power BI bridges the gap between raw data and strategic insight, making it easier for stakeholders to explore patterns, compare performance, and make informed decisions.
 
+### Database setup
 
+### 1. Connect Power BI to SQL Database
+
+1. Open Power BI Desktop.
+
+2. Click Home > Get Data > SQL Server (for SQL Server) or MySQL Database (for MySQL).
+
+3. Enter  Server name ( in SSMS or MySQL Workbench).
+
+4. Example for MySQL: localhost or 127.0.0.1
+
+5. Example for SQL Server: .\SQLEXPRESS or your instance name.
+
+6. Choose Database name created earlier .
+
+7. Click OK, then select the tables want to import.
+
+### 2. Data Transformation
+
+1. Before loading into reports:
+
+2. Remove unnecessary columns.
+
+3. Rename fields for clarity.
+
+4. Change data types (e.g., Date, Currency, Text).
+
+5. Create calculated columns
+
+### New Table 
+For forcesting create new table called "DATE"
+
+```Dax
 
 
