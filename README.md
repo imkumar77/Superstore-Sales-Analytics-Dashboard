@@ -37,3 +37,27 @@ CREATE TABLE Sales(
 );
 
 ```
+
+### 1. Database Setup
+- Created a MySQL database named Super_Store.
+  ```sql
+  create database Super_Store;
+  ```
+  
+- Defined the Sales table to store transactional data including customer location, product category, shipping details, and financial metrics like sales, discount, and profit.
+- Added Order_Date and Ship_Date columns using randomized date logic for time-series analysis.
+
+### 2. Data Cleaning & Preparation
+- Renamed columns for clarity (City → Customer_City, StateName → Customer_State).
+- Ensured proper data types for numeric fields (Sales, Profit, Discount, Quantity) and date fields.
+- Populated date columns using SQL functions like DATE_ADD() and RAND() to simulate realistic order and shipping timelines.
+
+### 3. Exploratory Data Analysis (EDA)
+- Aggregated sales and profit by region, state, and city to identify high-performing areas.
+- Analyzed customer segments (Consumer, Corporate, Home Office) and their contribution to revenue.
+- Evaluated product category profitability and ranked sub-categories using SQL window functions.
+- Investigated discount patterns and their correlation with profit margins.
+- Assessed shipping modes for frequency and profitability.
+- Tracked year-over-year sales trends and regional growth using SQL date functions.
+
+
