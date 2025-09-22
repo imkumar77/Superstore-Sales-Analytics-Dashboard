@@ -75,6 +75,18 @@ SET Order_Date = DATE_ADD('2022-12-25', INTERVAL FLOOR(RAND() * 1096) DAY);
 ```
 [Super store modify.csv](https://github.com/user-attachments/files/22476907/Super.store.modify.csv)
 
+### SQL queries
+I used MYSql Workbench
+[Super Store.sql](https://github.com/user-attachments/files/22476996/Super.Store.sql)
+
+### Outcomes from Sql
+
+SQL queries revealed that the West and East regions are the most profitable, with California and New York leading at the state level. The Consumer segment drives the highest sales, while Technology products, especially Phones and Accessories, yield the most profit. Cities like Los Angeles and New York City dominate profitability, whereas some states like Florida show weaker margins. Higher discounts tend to reduce profit, and Standard Class is the most used shipping mode but not the most profitable. Year-over-year trends show consistent growth, especially in the West and East, making them ideal for future expansion.
+
+---
+
+
+
 
 
 
