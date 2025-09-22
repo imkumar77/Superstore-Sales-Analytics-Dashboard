@@ -65,7 +65,7 @@ CREATE TABLE Sales(
 - Data : [Super_store_Rwa.csv](https://github.com/user-attachments/files/22476889/Super_store_Rwa.csv)
 - Data after adding Date Column :
   
-  ```sql
+```sql
   
 update sales
 set Ship_date = DATE_ADD('2023-01-01', INTERVAL FLOOR(RAND() * 1096) DAY);
