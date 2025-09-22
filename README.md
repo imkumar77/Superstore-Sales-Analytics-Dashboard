@@ -60,4 +60,8 @@ CREATE TABLE Sales(
 - Assessed shipping modes for frequency and profitability.
 - Tracked year-over-year sales trends and regional growth using SQL date functions.
 
+### Data Used
+- Data link: https://www.kaggle.com/datasets/khairullahhamsafar/sample-supper-store-data
+- Data : 
+
 
