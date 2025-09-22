@@ -62,6 +62,19 @@ CREATE TABLE Sales(
 
 ### Data Used
 - Data link: https://www.kaggle.com/datasets/khairullahhamsafar/sample-supper-store-data
-- Data : 
+- Data : [Super_store_Rwa.csv](https://github.com/user-attachments/files/22476889/Super_store_Rwa.csv)
+- Data after adding Date Column :
+  
+  ```sql
+  
+update sales
+set Ship_date = DATE_ADD('2023-01-01', INTERVAL FLOOR(RAND() * 1096) DAY);
+UPDATE sales
+SET Order_Date = DATE_ADD('2022-12-25', INTERVAL FLOOR(RAND() * 1096) DAY);
+
+```
+[Super store modify.csv](https://github.com/user-attachments/files/22476907/Super.store.modify.csv)
+
+
 
 
