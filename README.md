@@ -133,9 +133,85 @@ ADDCOLUMNS(
 )
 
 ```
+
 ### Model view
 
 <img width="882" height="444" alt="{D8AA76FE-1181-46DD-A632-499B5A699071}" src="https://github.com/user-attachments/assets/37a58997-b6f0-47b7-aaab-c083d59e9690" />
 
+## Insights
 
+### KPIs 
+
+- Total Profit ($286.4K)
+
+Shows the net profit across all sales.
+
+A healthy profit, but you’ll notice in other visuals that profit varies by region and category.
+
+- Total Sales ($2.3M)
+
+Total revenue generated.
+
+Acts as the primary performance measure against profit.
+
+- Average Discount (0.16 = 16%)
+
+The average discount given on all products.
+
+High discounts often reduce profit — we’ll confirm this in category/region trends.
+
+- Total Orders (9,994)
+
+Represents the total number of transactions.
+
+High order volume doesn’t always mean high profit (e.g., discounts and category mix matter).
+
+
+### Charts & Visuals
+1. Profit and Sales (Map)
+
+Sales are concentrated in the East and West regions of the US.
+
+Larger circles = higher sales cities.
+
+
+2. Sales by Region (Bar Chart)
+
+West leads in total sales (~$0.73M), followed by East (~$0.68M).
+
+Central ($0.50M) and South ($0.39M) underperform.
+
+Suggests regional sales imbalance → opportunity to strengthen South & Central.
+
+
+3. Sub-Category vs Region (Matrix)
+
+Breaks down sales and profit by sub-category.
+
+
+4. Sales by Category (Donut Chart)
+
+Technology (36%) leads in sales share.
+
+Furniture (32%) and Office Supplies (31%) are nearly equal.
+
+Balanced category distribution → but volatility in Furniture needs attention.
+
+5. Sales by Date (Line + Forecast)
+
+Sales are seasonal with spikes in certain months (likely holiday/back-to-school).
+
+Forecast suggests growth continuing into 2026, though with fluctuations.
+
+### Overall Insights
+
+- West & East regions are leaders in sales, but South/ Central need strategy improvements.
+
+- Technology dominates, but Furniture is volatile → maybe due to shipping costs and returns.
+
+- High discounting (16% avg) is cutting into profits, especially in certain sub-categories.
+
+- Seasonality is clear → strong spikes during holidays & special events.
+
+- Forecast predicts steady YoY growth → ~10% rise expected, so sustaining supply chain efficiency will be key.
 
