@@ -123,5 +123,19 @@ While SQL is powerful for data modeling and analysis, it offers limited visual r
 For forcesting create new table called "DATE"
 
 ```Dax
+Date = 
+ADDCOLUMNS(
+    CALENDAR(MIN('super_store sales'[order_date]), MAX('super_store sales'[order_date])),
+    "Year", YEAR([Date]),
+    "Month", MONTH([Date]),
+    "MonthName", FORMAT([Date],"MMM"),
+    "Quarter", "Q" & FORMAT([Date],"Q")
+)
+
+```
+### Model view
+
+<img width="882" height="444" alt="{D8AA76FE-1181-46DD-A632-499B5A699071}" src="https://github.com/user-attachments/assets/37a58997-b6f0-47b7-aaab-c083d59e9690" />
+
 
 
