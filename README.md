@@ -10,6 +10,10 @@ A complete end-to-end retail analytics project that transforms raw sales data in
 - Customer segmentation and product profitability
 - Discount impact and shipping mode efficiency
 - Year-over-year trend tracking and forecasting
+
+## BRD
+
+https://github.com/imkumar77/Superstore-Sales-Analytics-Dashboard/blob/main/Superstore%20Sales%20Analytics%20Dashboard%20BRD.docx
   
 ## Tools & Technologies
 - SQL (MySQL) – Data modeling, transformation, and analysis
@@ -138,6 +142,11 @@ ADDCOLUMNS(
 
 <img width="882" height="444" alt="{D8AA76FE-1181-46DD-A632-499B5A699071}" src="https://github.com/user-attachments/assets/37a58997-b6f0-47b7-aaab-c083d59e9690" />
 
+## Dashboard
+
+<img width="1147" height="703" alt="{831A2B77-C433-4DC3-B356-E9ACF8BCD123}" src="https://github.com/user-attachments/assets/3a9d741b-2815-4551-8aff-4b54d9f1aea7" />
+
+
 ## Insights
 
 ### KPIs 
@@ -215,3 +224,57 @@ Forecast suggests growth continuing into 2026, though with fluctuations.
 
 - Forecast predicts steady YoY growth → ~10% rise expected, so sustaining supply chain efficiency will be key.
 
+## Recommendations
+
+1. Regional Performance
+
+- Central and West regions drive the majority of sales and profit.
+
+- However, some states in the South region show negative profits — focus on reducing discounts or optimizing operations there.
+
+2. Discount Strategy
+
+- High discounts strongly correlate with reduced profits.
+
+- Recommendation: Introduce a controlled discounting policy, offering promotions only on slow-moving or high-margin products.
+
+3. Category Insights
+
+- Office Supplies: Steady growth, consistent profit contributor → continue investment.
+
+- Furniture: Volatile sales with frequent losses → review pricing, sourcing, and discounting strategies.
+
+- Technology: High sales and margins → push premium product lines.
+
+4. Shipping Mode Optimization
+
+- Standard Class shipping is most popular but not always profitable.
+
+- Recommendation: Encourage customers to shift to Second Class / First Class with bundled offers or loyalty points.
+
+5. Customer Segment Focus
+
+- Corporate and Consumer segments perform strongly.
+
+- Recommendation: Develop B2B loyalty programs for Corporate buyers and targeted marketing for high-value Consumer customers.
+
+6. Forecast & Seasonality
+
+- Forecast predicts ~10% YoY growth with peaks during back-to-school (Aug-Sep) and holiday season (Nov-Dec).
+
+- Recommendation: Plan inventory and logistics ahead of peak seasons to maximize profit and avoid stockouts.
+
+## Conclusion
+
+- This project demonstrates how raw retail transaction data can be transformed into actionable business intelligence using SQL for data preparation and Power BI for visualization. By integrating robust data modeling with interactive dashboards, we uncovered key insights into regional performance, category profitability, discount impact, and shipping efficiency.
+  
+- The analysis highlights that while East and West regions and the Technology category drive profitability, excessive discounting and volatility in Furniture sales remain challenges. Furthermore, insights into customer segments and seasonal sales patterns provide a foundation for targeted marketing, inventory planning, and pricing strategies.
+
+- With an expected 10% year-over-year growth, businesses can leverage these findings to optimize discounts, refine logistics, strengthen underperforming regions, and capitalize on seasonal demand peaks.
+
+- Ultimately, this solution showcases how data-driven decision-making empowers organizations to not only monitor current performance but also strategically plan for sustainable growth.
+
+---
+
+## License
+This project is licensed under the MIT License.
